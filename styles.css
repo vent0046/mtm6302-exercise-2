@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+ 
+img{
+   width: 50%;
+   height: 50%;
+ }
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 2fr));
+    grid-template-rows: repeat(2, 6);
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+h2,
+h5,
+p{
+    text-align: center;
+}
+
+img{
+  border: black solid; 
+}
+
+h2{
+  font-family: 'Krona One', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+h5{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white; 
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  margin: auto;
+}
+
+#info{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  padding: 25px;
+  margin: auto;
+  margin-bottom: 25px;
+  border: black solid;
+}
+
+.box{
+  background-color: black;
+  padding: 15px;
+}
